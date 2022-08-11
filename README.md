@@ -26,7 +26,7 @@ The Pandas library was used in reading the CSV format of the dataset and for als
 
 The ScikitLearn library was used in various machine learning related tasks like splitting of the dataset, feature scaling of the dataset, and for describing the performance of the model. Since this project is focused on using Artificial Intelligence, I couldn't use the ScikitLearn library for building some other machine learning models.
 
-The Numpy library was used in 
+The Numpy library was used in dealing with arrays. Some correlations and results were plotted using the Matplotlib library, while Keras was used in building the Artificial Neural Network layers, and the classification model using the sigmoid activation function.
 
 
 
