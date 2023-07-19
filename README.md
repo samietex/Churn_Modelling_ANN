@@ -1,20 +1,18 @@
-## Churn_Modelling_ANN
+## Churn Modeling ANN
 
 ### Project Overview
 
-The aim of this Churn Modeling project is to build prediction model that will predict if a customer will leave a bank or not. This stems from wether loans should be granted to a customer. 
+The goal of this project is to develop a prediction model using Artificial Neural Networks (ANN) to determine whether a customer will leave a bank or not. The objective is to assist in the decision-making process regarding granting loans to customers.
 
-Judging by this logic, if a customer will leave a bank, then loans shouldn't be granted to the customer and vice versa.
-
+The rationale behind this project is that if a customer is likely to leave the bank, it may not be advisable to grant them a loan, and vice versa.
 
 ### Dataset Overview
 
-For this project, I used a Kaggle dataset of bank customers containing their credit scores, location, gender, age, number of years spent in the bank, and amount of money left in their bank account, among other important details.
-
+For this project, I utilized a bank customer dataset obtained from Kaggle. The dataset includes various details such as credit scores, location, gender, age, duration of customer relationship with the bank, and account balance.
 
 ### Tasks
 
-To achieve the objective of this project, I built an Artificial Neural Network using Python and the following Python libraries:
+To achieve the project objective, I implemented an Artificial Neural Network using Python and several Python libraries, including:
 
 * ScikitLearn
 * Pandas
@@ -22,26 +20,10 @@ To achieve the objective of this project, I built an Artificial Neural Network u
 * Matplotlib.pyplot
 * Keras
 
->The Pandas library was used in reading the CSV format of the dataset and for also performing some data wrangling and cleaning practices.
+The Pandas library was utilized for reading and handling the dataset in CSV format, as well as for data wrangling and cleaning operations.
 
->The ScikitLearn library was used in various machine learning related tasks like splitting of the dataset, feature scaling of the dataset, and for describing the performance of the model. Since this project is focused on using Artificial Intelligence, I couldn't use the ScikitLearn library for building some other machine learning models.
+ScikitLearn was employed for tasks such as dataset splitting, feature scaling, and performance evaluation. However, since the focus of this project is on utilizing Artificial Intelligence, ScikitLearn was not used for building other machine learning models.
 
->The Numpy library was used in dealing with arrays. Some correlations and results were plotted using the Matplotlib library, while Keras was used in building the Artificial Neural Network layers, and the classification model using the `Relu` and `Sigmoid` activation function, and the `Adam` optimizer.
+Numpy was utilized for array operations, while Matplotlib.pyplot was employed for plotting correlations and results.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Keras was used for constructing the layers of the Artificial Neural Network and building the classification model, utilizing the `Relu` and `Sigmoid` activation functions, as well as the `Adam` optimizer.
